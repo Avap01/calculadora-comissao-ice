@@ -46,7 +46,7 @@ body, html {
   .interface2 {
     background-color: hsla(0, 0%, 51%, 0.385);
     width: 310px;
-    height: 285px;
+    height: 300px;
     margin: 15% 10% 10%;
     border-radius: 25px;
   }
@@ -80,34 +80,38 @@ body, html {
     margin-left: 15px;
   }
 
-  .input1 input,
-  .input2 input{
+  .input1 input{
     background-color: #d9d9d9;
     border-radius: 7px;
     width: 50px;
     height: 20px;
-    margin-left: 51px;
+    margin-left: 53px;
+    margin-top: 0;
+
+
+  }
+  .input2 input
+  {
+    background-color: #d9d9d9;
+    border-radius: 7px;
+    width: 50px;
+    height: 20px;
+    margin-left: 20px;
     margin-top: 0;
   }
-  
+  .input3 input{
+    background-color: #d9d9d9;
+    border-radius: 7px;
+    width: 50px;
+    height: 20px;
+    margin-left: -12px;
+    margin-top: 0;
 
 
-  .input2 input {
-    margin-left: 77px;
   }
-.input3 input{
-  background-color: #d9d9d9;
-  border-radius: 7px;
-  width: 50px;
-  height: 20px;
-
-margin: 0px;
 
 
 
-
-
-}
   .calcular {
     background-color: #000000;
     color: white;
@@ -151,12 +155,14 @@ margin: 0px;
     margin-left: 95px;
     margin-top: 10px;
   }
-.rodape{
-display: flex;
-}
 
-.imgmodo{
-width: 25px;
-height: 25px;
-margin-left: 80%;
-}
+
+  .rodape{
+    display: flex;
+    }
+    
+    .imgmodo{
+    width: 25px;
+    height: 25px;
+    margin-left: 80%;
+    }
