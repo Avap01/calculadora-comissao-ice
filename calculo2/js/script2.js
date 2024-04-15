@@ -14,5 +14,12 @@ document.addEventListener("DOMContentLoaded", function() {
   
       resultadoInput.value = total;
     });
+
+    resetBtn.addEventListener("click", function() {
+        document.getElementById("mochilaInput").value = "";
+        document.getElementById("bolsoInput").value = "";
+        document.getElementById("porcentagemInput").value = "";
+        document.getElementById("resultado").value = "";
+    });
   });
   
