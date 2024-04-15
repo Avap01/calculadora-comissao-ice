@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+    const resetBtn = document.querySelector(".reset-btn");
     const pele1Input = document.getElementById("pele1Input");
     const pele2Input = document.getElementById("pele2Input");
     const pele3Input = document.getElementById("pele3Input");
@@ -12,13 +13,13 @@ document.addEventListener("DOMContentLoaded", function() {
   
       const total = pele1 * 110 + pele2 * 160 + pele3 * 210;
   
-      resultadoInput.value = total;
+      resultadoInput.value = "R$ " + total .toFixed(2);
     });
 
     resetBtn.addEventListener("click", function() {
-        document.getElementById("mochilaInput").value = "";
-        document.getElementById("bolsoInput").value = "";
-        document.getElementById("porcentagemInput").value = "";
+        document.getElementById("pele1Input").value = "";
+        document.getElementById("pele2Input").value = "";
+        document.getElementById("pele3Input").value = "";
         document.getElementById("resultado").value = "";
     });
   });
