@@ -141,13 +141,13 @@ html {
     height: 10px;
     border-radius: 5px;
     padding: 10px 20px;
-    margin-left: 35%;
+    margin-left: 30%;
     cursor: pointer;
     transition: background-color .3s;
 }
 
 .reset-btn:hover {
-    background-color: #e74c3c;
+    background-color: #ff0000;
 }
 
 .resultado {
@@ -167,4 +167,28 @@ html {
     width: 25px;
     height: 25px;
     margin-left: 80%;
+}
+
+.imgmodo:hover{
+
+background-image: url(hover.png);
+
+
+}
+.trash-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10%;
+    cursor: pointer;
+    transition: background-color .3s;
+    
+}
+
+.trash-btn:hover {
+    background-color: #ff0000;
 }
