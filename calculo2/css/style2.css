@@ -1,5 +1,5 @@
-
-body, html {
+body,
+html {
     background-color: #666;
     margin: 0;
     padding: 0;
@@ -14,16 +14,16 @@ body, html {
     height: 475px;
     margin: 130px auto 0;
     border-radius: 25px;
-  }
+}
 
-  .logo {
+.logo {
     border-radius: 25px;
     width: 97px;
     height: 95px;
     margin: 0 auto;
-  }
+}
 
-  .fundo {
+.fundo {
     background-color: #666;
     display: flex;
     align-items: center;
@@ -33,55 +33,55 @@ body, html {
     width: 195px;
     height: 55px;
     margin: -70px auto 0;
-  }
+}
 
-  .titulo {
+.titulo {
     color: #fff;
     text-align: center;
     height: 40px;
     margin: px;
     line-height: 40px;
     font-size: 30px;
-  }
+}
 
-  .interface2 {
+.interface2 {
     background-color: hsla(0, 0%, 51%, 0.385);
     width: 310px;
     height: 300px;
     margin: 15% 10% 10%;
     border-radius: 25px;
-  }
+}
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .interface1 {
-      width: 80%;
-      height: auto;
-      margin: 50px auto 0;
+        width: 80%;
+        height: auto;
+        margin: 50px auto 0;
     }
 
     .interface2 {
-      width: 80%;
-      height: auto;
-      margin: 15% auto;
+        width: 80%;
+        height: auto;
+        margin: 15% auto;
     }
-  }
+}
 
-  .input1,
-  .input2,
-  .input3 {
+.input1,
+.input2,
+.input3 {
     display: flex;
     align-items: center;
-  }
+}
 
-  .input1 h2,
-  .input2 h2,
-  .input3 h2 {
+.input1 h2,
+.input2 h2,
+.input3 h2 {
     color: #fff;
     margin-right: 15px;
     margin-left: 15px;
-  }
+}
 
-  .input1 input{
+.input1 input {
     background-color: #d9d9d9;
     border-radius: 7px;
     width: 50px;
@@ -90,17 +90,18 @@ body, html {
     margin-top: 0;
 
 
-  }
-  .input2 input
-  {
+}
+
+.input2 input {
     background-color: #d9d9d9;
     border-radius: 7px;
     width: 50px;
     height: 20px;
     margin-left: 20px;
     margin-top: 0;
-  }
-  .input3 input{
+}
+
+.input3 input {
     background-color: #d9d9d9;
     border-radius: 7px;
     width: 50px;
@@ -109,11 +110,11 @@ body, html {
     margin-top: 0;
 
 
-  }
+}
 
 
 
-  .calcular {
+.calcular {
     background-color: #000000;
     color: white;
     border: none;
@@ -125,14 +126,14 @@ body, html {
     height: 30px;
     margin-left: 100px;
     margin-top: 0;
-  }
+}
 
-  .calcular:hover {
+.calcular:hover {
     background-color: #ff0000;
     color: #fff;
-  }
+}
 
-  .reset-btn {
+.reset-btn {
     background-color: #000;
     color: #fff;
     border: none;
@@ -143,27 +144,27 @@ body, html {
     margin-left: 35%;
     cursor: pointer;
     transition: background-color .3s;
-  }
+}
 
-  .reset-btn:hover {
+.reset-btn:hover {
     background-color: #e74c3c;
-  }
+}
 
-  .resultado {
+.resultado {
     border-radius: 5px;
     width: 100px;
     height: 30px;
     margin-left: 95px;
     margin-top: 10px;
-  }
+}
 
 
-  .rodape{
+.rodape {
     display: flex;
-    }
-    
-    .imgmodo{
+}
+
+.imgmodo {
     width: 25px;
     height: 25px;
     margin-left: 80%;
-    }
+}
